@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "How to compare image"
+version = "0.2.3"
+description = "Little library for comapre image"
+authors = ["Jan Egermaier <jan.egermaier@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.5.5"
+numpy = "^1.22.3"
+pandas = "^1.4.2"
+Pillow = "^9.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.7b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
